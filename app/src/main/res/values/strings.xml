@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">File Transfer App</string>
+    <string name="title_activity_sender">Sender</string>
+    <string name="user_name">"@LWK"</string>
+    <string name="verified">BETA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_text">This app is developed by LWK</string>
+    <string name="history_list">List of downloads</string>
+    <string name="profile_info">Profile</string>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainFragment">
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <!-- TFTP Server Button -->
+        <Button
+            android:id="@+id/btntftpserver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/blue"
+            android:drawableLeft="@drawable/cloud_icon"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="TFTP Server"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TextContrastCheck" />
+
+        <!-- TFTP Client Button -->
+        <Button
+            android:id="@+id/btntftpclient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btntftpserver"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#4CAF50"
+            android:drawableLeft="@drawable/send_img"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="TFTP Client"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TextContrastCheck" />
+
+        <!-- FTP Button -->
+        <Button
+            android:id="@+id/btnFTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btntftpclient"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/purple"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:drawableLeft="@drawable/receive_img"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:text="FTP Client"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <!-- HTTP Button
+        <Button
+            android:id="@+id/btnHttp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btnFTP"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/yellow"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:drawableLeft="@drawable/receive_img"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:text="HTTP Client"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+-->
+    </RelativeLayout>
+
+</FrameLayout>
